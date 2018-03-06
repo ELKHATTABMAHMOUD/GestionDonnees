@@ -13,6 +13,7 @@ public interface IUsersDao {
 	public User getUser(int idUser);
 	public Collection<User> getAllUsers();
 	public void addDroitsToUser(Droits droit) ;
+	public void addRoleToUser(Droits droit) ;
 	
 	// methods concerning roles 
 	public void addRole(Role role);
